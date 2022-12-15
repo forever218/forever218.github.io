@@ -13,7 +13,7 @@
 
 
 
-<title>鸣谢 | 8班纪念工程</title>
+<title>留言板 | 8班纪念工程</title>
 
 
 
@@ -135,25 +135,22 @@
                 <div class="container">
     <article class="post-wrap page">
         
-        <h2 class="post-title">鸣谢</h2>
+        <h2 class="post-title">留言板</h2>
         
         <section class="post-content">
-            <h1 id="一路上，感谢以下伙伴的支持"><a href="#一路上，感谢以下伙伴的支持" class="headerlink" title="一路上，感谢以下伙伴的支持:"></a>一路上，感谢以下伙伴的支持:</h1><ul>
-<li><p><strong>Hexo:</strong>   强大高效的框架，为本站提供稳定驱动</p>
-</li>
-<li><p><strong>开心哥:</strong>   提供评论系统的服务器  <del>开心哥我爱你!!!❤️</del></p>
-</li>
-<li><p><strong>Chic:</strong>   主题原作者，提供了赏心悦目的UI设计</p>
-</li>
-<li><p><strong>一些高中舍友们:</strong>   对我的工作给予宝贵的建议与支持</p>
-</li>
-<li><p><strong>一些提供媒体资料的同学们:</strong>   丰富了内容，在此一并感谢</p>
-</li>
-<li><p><strong>Twikoo:</strong>   一款非常优秀的开源、免费、高魔改性的前端评论系统</p>
-</li>
-</ul>
-<p>🎉🎉🎉🎉🎉🎉🎉🎉</p>
-<p><img src="https://s1.ax1x.com/2022/10/29/x5QLuD.png" alt="谢谢你们"></p>
+            <p>徐志摩曾说过：“沉默是今晚的康桥”，我说：“人就要多说话”。</p>
+<div id="tcomment"></div>
+<script src="https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://twikoo.soulxyz.top', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  el: '#tcomment', // 容器元素
+  // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+  // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
+})
+</script>
+
 
         </section>
     </article>
